@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Навбар*/
+
+nav {
+    width: 100%; /*ширина меню на всю ширину браузера*/
+    height: 65px;
+    
+    background-color: rgba(154, 234, 23, 0.55); /*прозрачность 55%*/
+}
+
+ul {
+    display: flex; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 25px;
+}
+
+li:last-child {
+    margin-left: auto;  /*прижимаем последнюю li влево*/
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/*Главное*/
+
+#search {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    
+    border: 0;
+    border-radius: 15px;
+    
+    background-color: #d9d9d9;
+    font-size: 18px;
+}
+.input {
+    width: 300px;
+    margin-top: 0px;
+    margin-right: 45px;
+    
+    position: relative;
+    float: right;
+}
+.form {
+    position: absolute;
+    
+    top: 2px;
+    right: 10px;
+}
+aside {
+    width: 18%;
+    height: auto;
+
+    background-color: rgba(217, 217, 217, 0.24);
+    border-radius: 15px;
+    
+    position: absolute;
+    top: 180px;
+    right: 20px; 
+       
+}
+.popular {
+    width: 145px;
+    height: 40px;
+    
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    font-size: 18px;
+    background-color: #C0EA17;
+    
+    border-radius: 15px;
+    border: none;
+} 
+.button-popular {
+    text-align: center;
+}
+.links {
+    display: block;
+}
+h3 {
+    font-size: xx-large;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.flower {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+
+    width: 20%;
+    height: auto;
+     
+    float: left;
+}
+p {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: justify;
+
+    font-size: 31px;
+    letter-spacing: 3.2px;
+    width: 74%;
+}
+
+    

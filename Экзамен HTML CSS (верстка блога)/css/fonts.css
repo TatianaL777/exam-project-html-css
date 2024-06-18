@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+h5, h3, a, button, #search {
+    font-family: 'Roboto Slab', serif;
+}
+.links a, p, #login, #password, .new-password {
+    font-family: 'Neuton', sans-serif;
+}
+.links a {
+    font-size: 1.25vw;
+}
+#login, #password {
+    font-size: 18px;
+}
